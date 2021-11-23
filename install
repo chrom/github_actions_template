@@ -24,8 +24,8 @@ bin/clinotty bin/magento setup:install \
   --admin-firstname="$MAGENTO_ADMIN_FIRST_NAME" \
   --admin-lastname="$MAGENTO_ADMIN_LAST_NAME" \
   --admin-email="$MAGENTO_ADMIN_EMAIL" \
-  --admin-user="$MAGENTO_ADMIN_USER" \
-  --admin-password="$MAGENTO_ADMIN_PASSWORD" \
+  --admin-user="admin" \
+  --admin-password="admin123" \
   --language="$MAGENTO_LOCALE" \
   --currency="$MAGENTO_CURRENCY" \
   --timezone="$MAGENTO_TIMEZONE" \
